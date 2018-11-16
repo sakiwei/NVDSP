@@ -30,7 +30,6 @@
 #pragma mark - Setters
 - (void) setCoefficients;
 
-- (nonnull NSArray<NSNumber> *)filterCoefficients;
 - (nonnull NSArray<NSNumber*> *)filterCoefficients;
 
 #pragma mark - Effects
