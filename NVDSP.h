@@ -30,6 +30,7 @@
 #pragma mark - Setters
 - (void) setCoefficients;
 
+- (nonnull NSArray<NSNumber> *)filterCoefficients;
 
 #pragma mark - Effects
 - (void) filterContiguousData: (float *)data numFrames:(UInt32)numFrames channel:(UInt32)channel;

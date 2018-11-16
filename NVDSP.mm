@@ -56,6 +56,9 @@
     [self stabilityWarning];
 }
 
+- (nonnull NSArray<NSNumber> *)filterCoefficients {
+    return @[@(coefficients[0]), @(coefficients[1]), @(coefficients[2]), @(coefficients[3]), @(coefficients[4])];
+}
 
 #pragma mark - Effects
 
